@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "RUNIQ – Who Runs UB",
     description: "Real records. Real rankings. Basketball and pickleball at UB.",
-    url: "https://runiq.vercel.app",
+    url: "https://runiqub.vercel.app",
     siteName: "RUNIQ",
     type: "website",
   },
@@ -22,6 +22,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  verification: {
+    google: "rfLcJnk3Z-9vXRCCdcFKitjkSvct-h8TldJIYTpXAvc",
   },
 };
 
