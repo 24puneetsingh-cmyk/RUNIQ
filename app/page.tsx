@@ -284,7 +284,7 @@ export default function Home() {
                   onMouseEnter={e => (e.currentTarget.style.color = 'var(--white)')}
                   onMouseLeave={e => (e.currentTarget.style.color = 'var(--gray)')}
                 >Account</a>
-                <UserButton afterSignOutUrl="/" />
+                <UserButton />
               </>
             )}
           </div>
